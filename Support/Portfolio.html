@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://webfonts.brand.ucsb.edu/webfont.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/hnl4mxr.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../photograph.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<style type="text/css">
+	</style>
+	<title>Photography Collections</title>
+	<style>
+		html body {
+			min-width: 320px !important;
+	
+		}
+	
+		.container10 img,.container9 img, .container11 img{
+			filter: grayscale(100%) ;
+		}
+
+		#modalgrad1 img,#modalgrad2 img,#modalgrad3 img{
+			filter: grayscale(0);
+		}
+
+		.container10  img:hover,.container9  img:hover, .container11 img:hover{
+			filter: grayscale(0) ;
+			transform:scale(1.1)
+
+		}
+	
+		::-webkit-scrollbar {
+			display: none;
+		}
+	
+		.showDiv {
+			animation: bounceInLeft 3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 alternate forwards;
+			-webkit-animation: bounceInLeft 3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 alternate forwards;
+			/*Safari and Chrome*/
+		}
+	
+		@keyframes bounceInLeft {
+			0% {
+				opacity: 0;
+				transform: translate3d(-3000px, 0, 0);
+			}
+	
+			/* 60% {
+				opacity: 1;
+				transform: translate3d(-25px, 0, 0);
+			}
+	
+			75% {
+				transform: translate3d(-10px, 0, 0);
+			}
+	
+			90% {
+				transform: translate3d(-5px, 0, 0);
+			} */
+	
+			100% {
+				transform: none;
+			}
+		}
+	
+		.noDiv {
+			animation: bounceInRight 3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 alternate forwards;
+			-webkit-animation: bounceInRight 3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 alternate forwards;
+			/*Safari and Chrome*/
+		}
+	
+		@keyframes bounceInRight {
+			0% {
+				opacity: 0;
+				transform: translate3d(3000px, 0, 0);
+			}
+	
+			/* 60% {
+				opacity: 1;
+				transform: translate3d(-25px, 0, 0);
+			}
+	
+			75% {
+				transform: translate3d(-10px, 0, 0);
+			}
+	
+			90% {
+				transform: translate3d(-5px, 0, 0);
+			} */
+	
+			100% {
+				transform: none;
+			}
+		}
+	
+		.imgPage:hover {
+			border: 3px solid #3f51b5;
+			cursor: pointer;
+	
+		}
+	</style>
+</head>
+
+<body>
+
+	<!--Navigation-->
+	<nav class="nav">
+		<ul>
+			<li><a class="current" href="../index.html"><strong>WORKS</strong></a></li>
+			<li><a href="../ABOUT.html">ABOUT</a></li>
+			<li><a href="javascript:void(0)" id="contact">CONTACT</a></li>
+		</ul>
+	</nav>
+
+	<div class="line"></div>
+
+	<!--Images-->
+	<div class="grid-container">
+
+		<div class="boxy">
+
+			<div class="picp101">
+				<img src="../VOL. 223 Black.png" alt="Pic1" class="pic1">
+				<!-- <a href="#modal"> -->
+				<div class="overlay" onclick="openImgPop('modal')">
+					<img src="VOL. 223.jpg" alt="Pic1" class="pic1">
+				</div>
+				<!-- </a> -->
+			</div>
+
+			<div id="modal" class="modal">
+				<div class="popup">
+					<span class="close" onclick="closeImgPop('modal')">&times;</span>
+					<div class="content">
+						<img src="../tsVOL. 223.jpg" alt="Pic1" class="tspic1">
+					</div>
+
+					<div class="picpopup">
+						<a href="" onclick="window.open('https://www.magcloud.com/browse/issue/2187306?__r=3920262')">
+							<p>Dazzling Magazine <br> ISSUE 2 VOL. 2</p>
+						</a>
+					</div>
+
+
+					<div class="Nextcontainerfirst">
+						<a href="#modal2">
+							<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownext1">
+							<div class="overlaynext">
+								<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownextoverlay">
+							</div>
+						</a>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="boxy">
+			<div class="picp102">
+				<img src="../1 Black.png" alt="Pic2" class="pic2">
+				<!-- <a href="#modal2"> -->
+				<div class="overlay2" onclick="openImgPop('modal2')">
+					<img src="../1.png" alt="Pic2" class="pic2">
+				</div>
+				<!-- </a> -->
+			</div>
+
+			<div id="modal2" class="modal">
+				<div class="popup">
+					<span class="close" onclick="closeImgPop('modal2')">&times;</span>
+					<div class="content">
+						<img src="../tsshuba.jpg" alt="Pic1" class="tspic2">
+					</div>
+
+					<div class="picpopup">
+						<a href="" onclick="window.open('https://www.magcloud.com/browse/issue/2228366?__r=929479')">
+							<p>Shuba Magazine <br> ISSUE 58 VOL. 5</p>
+						</a>
+					</div>
+
+					<a href="#modal">
+						<div class="Nextcontainer">
+							<img src="../small-arrow-icon-2.png" alt="Pic1" class="arrowpreviouslast">
+							<div class="overlayprevious">
+								<img src="../small-arrow-icon-2.png" alt="Pic1" class="arrowpreviouslastoverlay">
+							</div>
+						</div>
+					</a>
+
+					<a href="#modal3">
+						<div class="Nextcontainer2">
+							<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownext">
+							<div class="overlaynext">
+								<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownextoverlay">
+							</div>
+						</div>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="boxy">
+			<div class="picp103">
+				<img src="../1723 8121 Black.png" alt="Pic3" class="pic3">
+				<!-- <a href="#modal3"> -->
+				<div class="overlay3" onclick="openImgPop('modal3')">
+					<img src="../1723 8121.png" alt="Pic3" class="pic3">
+				</div>
+				<!-- </a> -->
+			</div>
+
+			<div id="modal3" class="modal">
+				<div class="popup">
+					<span class="close" onclick="closeImgPop('modal3')">&times;</span>
+					<div class="content">
+						<img src="../ts 1723 8121 .jpg" alt="Pic1" class="tspic3">
+					</div>
+
+					<div class="picpopup">
+						<a href="" onclick="window.open('https://www.magcloud.com/browse/issue/2326225')">
+							<p>17:23 Magazine <br> SPECIAL EDITION <br> VOL.81 2022</p>
+						</a>
+					</div>
+
+					<a href="#modal2">
+						<div class="Nextcontainer">
+							<img src="../small-arrow-icon-2.png" alt="Pic1" class="arrowpreviouslast">
+							<div class="overlayprevious">
+								<img src="../small-arrow-icon-2.png" alt="Pic1" class="arrowpreviouslastoverlay">
+							</div>
+						</div>
+					</a>
+
+					<a href="#modal4">
+						<div class="Nextcontainer2">
+							<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownext">
+							<div class="overlaynext">
+								<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownextoverlay">
+							</div>
+
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="picp104">
+			<img src="../4 black.png" alt="Pic4" class="pic4">
+			<!-- <a href="#modal4"> -->
+			<div class="overlay4" onclick="openImgPop('modal4')">
+				<img src="../4.png" alt="Pic4" class="pic4">
+			</div>
+			<!-- </a> -->
+		</div>
+
+		<div id="modal4" class="modal">
+			<div class="popup">
+				<span class="close" onclick="closeImgPop('modal4')">&times;</span>
+				<div class="content">
+					<img src="../ts dreamy.png" alt="Pic1" class="tspic4">
+				</div>
+
+				<div class="picpopup">
+					<a href="" onclick="window.open('https://www.magcloud.com/browse/issue/2182293')">
+						<p>Dreamy Magazine<br> Issue 427 2022</p>
+					</a>
+				</div>
+
+
+				<div class="Nextcontainerlast">
+					<a href="#modal3">
+						<img src="../small-arrow-icon-2.png" alt="Pic1" class="arrowpreviouslast">
+						<div class="overlayprevious">
+							<img src="../small-arrow-icon-2.png" alt="Pic1" class="arrowpreviouslastoverlay">
+						</div>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container2">
+		<div class="photohead">
+			<p>I enjoy doing</p>
+			<h1>portait photography</h1>
+			<p1>after school/work</p1>
+		</div>
+	</div>
+
+	<div class="container3">
+		<p2>← Click and view my published works!</p2>
+	</div>
+
+
+
+	<div class="jumpc" id="jumpc">
+		<div class="container4">
+			<p2>I love trying new styles and exploring new settings with my clients, and I enjoy
+				revealing their unique personalities though photographs. </p2>
+		</div>
+
+		<div class="container5" style="position: relative;">
+			<button id="leftBtn"
+				style="z-index: 90;display: none;cursor: pointer;position: absolute;top: 48%;left: 7px;width: 40px;height: 40px; background-color: #ffffffcf;font-size: 18px;border-radius: 50%;"
+				onclick="toLeft()">&lt;</button>
+			<div id="imgPage1" style="display: block;position: absolute;background-color: white;">
+				<div class="containerpictures">
+					<div class="container5p1 imgPage">
+						<img src="../G2B.png" alt="c1" class="c1" onclick="ImgDetail('../G2B.png')">
+					</div>
+					<div class="container5p2 imgPage">
+						<img src="../C2B.png" alt="c2" class="c1" onclick="ImgDetail('../C2B.png')">
+					</div>
+					<div class="container5p2 imgPage">
+						<img src="../C3B.png" alt="c3" class="c2" onclick="ImgDetail('../C3B.png')">
+					</div>
+					<div class="container5p2 imgPage">
+						<img src="../C4B.png" alt="c4" class="c1" onclick="ImgDetail('../C4B.png')">
+					</div>
+					<div class="container5p2 imgPage">
+						<img src="../C5B.png" alt="c4" class="c1" onclick="ImgDetail('../C5B.png')">
+					</div>
+				</div>
+			</div>
+			<div id="imgPage2" style="display: none;position: absolute;background-color: white;">
+				<div class="containerpictures">
+					<div class="container5p1 imgPage">
+						<img src="../C4B.png" alt="c1" class="c1" onclick="ImgDetail('../C4B.png')">
+					</div>
+					<div class="container5p2 imgPage">
+						<img src="../C5B.png" alt="c2" class="c1" onclick="ImgDetail('../C5B.png')">
+					</div>
+					<div class="container5p2 imgPage">
+						<img src="../C3B.png" alt="c3" class="c2" onclick="ImgDetail('../C3B.png')">
+					</div>
+					<div class="container5p2 imgPage">
+						<img src="../grad3.JPG" alt="c4" class="c1" onclick="ImgDetail('../grad3.JPG')">
+					</div>
+					<div class="container5p2 imgPage">
+						<img src="../G2B.png" alt="c4" class="c1" onclick="ImgDetail('../G2B.png')">
+					</div>
+				</div>
+			</div>
+			<button id="rightBtn" onclick="toRight()"
+				style="z-index: 90;cursor: pointer;border-radius: 50%;position: absolute;top: 48%;right: 7px;width: 40px;height: 40px;background-color: #ffffffcf;font-size: 18px;">&gt;</button>
+		</div>
+
+		<div class="container6">
+			<h1>Client Projects</h1>
+		</div>
+
+		<div class="container7">
+			<p2>I love trying new styles and exploring new settings with my clients</p2>
+		</div>
+
+	</div>
+
+
+	<div class="fsl" id="fsl">
+		<div class="box">
+
+			<div class="container8">
+				<div class="photohead2">
+					<p>Besides, I also do</p>
+					<h1>event photography</h1>
+					<p1>mostly during summer</p1>
+				</div>
+			</div>
+			<div class="container9">
+				<div class="picgrad1">
+					<img src="../grad3.JPG" alt="c5" class="c3" onclick="openImgPop('modalgrad1')">
+
+					<!-- <a href="#modalgrad1">
+
+						<div class="overlaygrad">
+							<img src="../grad3.JPG" alt="c5" class="c3grad">
+							<img src="../grad1.1.png" alt="c5" class="c4grad">
+							<img src="../grad2.2.png" alt="c5" class="c5grad">
+						</div>
+
+					</a> -->
+
+
+					<div id="modalgrad1" class="modalgrad">
+						<div class="popup1">
+							<a class="close" href="#" onclick="closeImgPop('modalgrad1')">&times;</a>
+							<div class="content">
+								<div class="gcontainer1">
+									<h1>Graduation 2022</h1>
+									<p>June 8th, 2022 @UBC Rose Garden</p>
+								</div>
+								<img src="../14581666879808_.pic.jpg" alt="Pic1" class="gradpic2">
+							</div>
+
+							<div class="picpopup">
+
+							</div>
+
+
+							<div class="Nextcontainerfirst">
+								<a href="#modalgrad2">
+									<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownext1">
+									<div class="overlaynext">
+										<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownextoverlay">
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div id="modalgrad2" class="modalgrad">
+						<div class="popup1">
+							<a class="close" href="#"  onclick="closeImgPop('modalgrad2')">&times;</a>
+							<div class="content">
+								<img src="../grad1.JPG" alt="Pic1" class="gradpic3">
+								<img src="../gradsingle.JPG" alt="Pic1" class="gradpic4">
+							</div>
+
+							<div class="picpopup">
+
+							</div>
+
+							<a href="#modalgrad1">
+								<div class="Nextcontainer">
+									<img src="../small-arrow-icon-2.png" alt="Pic1" class="arrowpreviouslast">
+									<div class="overlayprevious">
+										<img src="../small-arrow-icon-2.png" alt="Pic1"
+											class="arrowpreviouslastoverlay">
+									</div>
+								</div>
+							</a>
+
+							<a href="#modalgrad3">
+								<div class="Nextcontainer2">
+									<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownext">
+									<div class="overlaynext">
+										<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownextoverlay">
+									</div>
+
+								</div>
+							</a>
+
+						</div>
+					</div>
+
+					<div id="modalgrad3" class="modalgrad">
+						<div class="popup1">
+							<a class="close" href="#" onclick="closeImgPop('modalgrad3')">&times;</a>
+							<div class="content">
+								<img src="../grad3.JPG" alt="Pic1" class="gradpic1">
+								<img src="../IMG_6314.JPG" alt="Pic1" class="gradpic5">
+							</div>
+
+							<div class="picpopup">
+
+							</div>
+
+
+							<div class="Nextcontainer">
+
+								<a href="#modalgrad3">
+									<div class="Nextcontainer2">
+										<img src="../small-arrow-icon-1.jpg" alt="Pic1" class="arrownext">
+	
+									</div>
+								</a>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container10">
+				<img src="../grad2.2.png" alt="c5" style="width:100%;" onclick="openImgPop('modalgrad2')">
+			</div>
+			<div class="container11">
+				<img src="../grad1.1.png" alt="c5" style="width:100%;" onclick="openImgPop('modalgrad3')">
+			</div>
+		</div>
+	</div>
+
+	<div class="fhd" id="fhd">
+		<div class="page4">
+
+			<h2>Let's Get In Touch!</h2>
+			<!--Navigation-->
+			<nav class="navfooter">
+				<ul>
+					<li><a href="https://www.linkedin.com/in/lyuchristal/">LinkedIn↗</a></li>
+					<li><a href="mailto:y44lyu@uwaterloo.ca" target="_blank">Email↗</a></li>
+				</ul>
+			</nav>
+
+			<p1>© Coded and Designed by Christal Lyu, Singapore 2022</p1>
+			<div class="NextProjectf">
+				<a id="backToTop" href="">↑ BACT TO TOP</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="modalImgPage" class="modal" style="display: none;">
+		<div class="popup">
+			<span class="close" onclick="closeImgPop('modalImgPage')">&times;</span>
+			<div class="content" style="text-align: center;overflow: hidden;">
+				<img src="" alt="Pic1" style="height: 39.5vw;margin: 0.1vw 0vw;" id="modalImgPageSrc">
+			</div>
+
+			<div class="picpopup">
+				<a href="" onclick="window.open('https://www.magcloud.com/browse/issue/2182293')">
+					<p>Dreamy Magazine<br> Issue 427 2022</p>
+				</a>
+			</div>
+
+
+			<div class="Nextcontainerlast">
+				<a href="#modal3">
+					<img src="../small-arrow-icon-2.png" alt="Pic1" class="arrowpreviouslast">
+					<div class="overlayprevious">
+						<img src="../small-arrow-icon-2.png" alt="Pic1" class="arrowpreviouslastoverlay">
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="page">
+	
+	</div>
+</body>
+
+</html>
+<script src="../page.js" async></script>
+
+<script>
+	function ImgDetail(url) {
+		console.info(url)
+		var modalImgPageSrc = document.getElementById('modalImgPageSrc');
+		modalImgPageSrc.src = url;
+		var modalImgPage = document.getElementById('modalImgPage');
+		modalImgPage.style.display = "block"
+	}
+
+	function openImgPop(status) {
+		var statusEl = document.getElementById(status);
+		statusEl.style.display = 'block'
+	}
+
+	function closeImgPop(status) {
+		var statusEl = document.getElementById(status);
+		statusEl.style.display = 'none'
+	}
+	var currentPage = 1;
+	var pageTotal = 2
+
+	function toRight() {
+		currentPage++;
+		if (currentPage == pageTotal) {
+			document.getElementById('rightBtn').style.display = "none";
+		}
+		document.getElementById('leftBtn').style.display = "block";
+		showImg('r')
+	}
+
+	function toLeft() {
+		currentPage--;
+		if (currentPage == 1) {
+			document.getElementById('leftBtn').style.display = "none";
+		}
+		document.getElementById('rightBtn').style.display = "block";
+		showImg('l')
+	}
+
+	function showImg(status) {
+		for (var i = 0; i < pageTotal; i++) {
+			if ((i + 1) == currentPage) {
+				(document.getElementById('imgPage' + (i + 1)).style)['z-index'] = "3";
+				document.getElementById('imgPage' + (i + 1)).style.display = "block";
+				if (status == 'r') {
+					document.getElementById('imgPage' + (i + 1)).classList.add("showDiv");
+					document.getElementById('imgPage' + (i + 1)).classList.remove("noDiv");
+				} else {
+					document.getElementById('imgPage' + (i + 1)).classList.add("noDiv");
+					document.getElementById('imgPage' + (i + 1)).classList.remove("showDiv");
+				}
+
+			} else {
+
+				(document.getElementById('imgPage' + (i + 1)).style)['z-index'] = "2";
+				if (status == 'r') {
+					document.getElementById('imgPage' + (i + 1)).classList.add("noDiv");
+					document.getElementById('imgPage' + (i + 1)).classList.remove("showDiv");
+				} else {
+					document.getElementById('imgPage' + (i + 1)).classList.add("showDiv");
+					document.getElementById('imgPage' + (i + 1)).classList.remove("noDiv");
+				}
+				closePage('imgPage' + (i + 1))
+
+			}
+		}
+	}
+
+	function closePage(str) {
+		setTimeout(function () {
+			document.getElementById(str).style.display = "none";
+		}, 3000);
+	}
+	var contact = document.querySelector("#contact");
+	var fhd = document.querySelector("#fhd");
+	contact.addEventListener("click", () => {
+		// window.scrollTo({top:4600,behavior: "smooth"});
+		fhd.scrollIntoView({
+			behavior: "smooth",
+			block: "center",
+			inline: "nearest"
+		})
+	});
+
+	let mybutton = document.getElementById("navigationup1");
+
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+</script>

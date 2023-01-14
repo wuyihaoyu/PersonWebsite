@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.BC {
+    position: relative;
+    width: 102vw;
+    height: 110vh;
+    overscroll-behavior:none;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scroll-snap-type: y mandatory;
+}
+.BC::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.section {
+    background-size:  cover;
+    scroll-snap-align: start;
+}
+.section:nth-child(1) {
+	width: 100vw;
+    height: 110vh;
+	padding-top: 0.1vw; 
+}
+.section:nth-child(2) {
+	width:100vw;
+    height: 110vh;
+}
+.section:nth-child(3) {
+	width:100vw;
+    height: 30vh;
+}
+.section:nth-child(4) {
+	width: 100vw;
+    height: 110vh;
+}
+.section:nth-child(5) {
+	width: 100vw;
+    height: 110vh;
+}
+.section:nth-child(6) {
+	width: 100vw;
+    height: 50vh;
+}
+.section:nth-child(7) {
+	width: 100vw;
+    height: 50vh;
+}
+
+.AB {
+   position: relative;
+    width: 102vw;
+    height: 110vh;
+    overscroll-behavior:none;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scroll-snap-type: y mandatory;
+}
+
+.AB ::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.section1 {
+    background-size:  cover;
+    scroll-snap-align: start;
+}
+.section1:nth-child(1) {
+	width: 100vw;
+    height: 110vh;
+	padding-top: 0.2vw;
+}
+.section1:nth-child(2) {
+	width:100vw;
+    height: 110vh;
+}
+.section1:nth-child(3) {
+	width:100vw;
+    height: 110vh;
+}
+.section1:nth-child(4) {
+	width:100vw;
+    height: 110vh;
+}
+.section1:nth-child(5) {
+	width: 100vw;
+    height: 50vh;
+}
+
+.ON {
+   position: relative;
+    width: 102vw;
+    height: 110vh;
+    overscroll-behavior:none;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scroll-snap-type: y mandatory;
+}
+
+.ON ::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.section3 {
+    background-size:  cover;
+    scroll-snap-align: start;
+}
+.section3:nth-child(1) {
+	width: 100vw;
+    height: 110vh;
+	padding-top: 0.2vw;
+}
+.section3:nth-child(2) {
+	width:100vw;
+    height: 110vh;
+}
+.section3:nth-child(3) {
+	width:100vw;
+    height: 50vh;
+}
+

@@ -1,0 +1,1845 @@
+/* Christal.css */
+html{
+  width:100vw;
+  max-height: 100vh;
+}
+
+body{
+  width:100vw;
+  height:100vh;
+  background-color:white;
+  float:center;
+  margin-top: -1.5vw;
+  -webkit-transform: scale(0.95);
+       -moz-transform: scale(0.95);
+            transform: scale(0.95);
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0vw;
+  margin: 3vw 0vw 2vw 0vw;
+  font-size: 1.30vw;
+  font-family: 'Avenir Medium';
+}
+
+.nav .current{
+  color: #727272;
+}
+
+.nav li {
+  float: left;
+}
+
+.navfooter{
+  margin: -3.3vw 0vw -2vw;
+}
+
+.navfooter li {
+  float: left;
+  font-size: 1.6vw;
+}
+
+.language li{
+	float: right;
+	margin-left: -0.5vw;
+}
+
+.language{
+	margin-right: 1.5vw;
+}
+
+.break{
+	page-break-before: always;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 0.93vw 2vw 0.93vw 2vw;
+}
+
+.columnp a:link{
+	text-decoration: underline;
+}
+
+
+li a:link, .foot a:link,.footp a:link, .footersub a:link,.turnr a:link, .turnl a:link, .prevNext a:link, .columnp a:link, .footeri a:link,  .foot9 a:link, .navfooter li a:link, .NextProject a:link,.PreviousPhoto a:link, .pj1p1 a:link , .NextPhoto a:link,.picpopup a:link, .acontainer3 a:link {
+  color:darkgray;
+} 
+
+li a:visited, .foot a:visited,.footp a:visited, .footersub a:visited, .turnr a:visited, .turnl a:visited, .prevNext a:visited, .columnp a:visited, .footeri a:visited, .foot9 a:visited, .navfooter li a:visited, .NextProject a:visited, .PreviousPhoto a:visited,.NextPhoto a:visited, .pj1p1 a:visited, .picpopup a:visited, .acontainer3 a:visited{
+  color:#90A3B5;
+} 
+
+li a:hover,.foot a:hover,.footp a:hover, .footersub a:hover, .turnr a:hover, .turnl a:hover, .prevNext a:hover, .columnp a:hover, .footeri a:hover, .foot9 a:hover{
+  color:#545454;
+} 
+
+.navfooter li a:hover, .NextProject a:hover,.PreviousPhoto a:hover,.NextPhoto a:hover,.pj1p1 a:hover, .picpopup a:hover, .acontainer3 a:hover{
+	  color:#545454;
+	text-decoration: underline;
+}
+
+
+li a:active, .foot a:active,.footp a:active, .footersub a:active, .turnr a:active, .turnl a:active, .prevNext a:active, .footeri a:active, .foot9 a:active, .navfooter li a:active,  .NextProject a:active,.PreviousPhoto a:active,.NextPhoto a:active, .pj1p1 a:active,  .picpopup a:active, .acontainer3 a:active{
+  color: #E5E4E4;
+}
+
+.line{
+    width: 95vw;
+    height: 3vw;
+	margin: -4vw 0vw -0.5vw 2vw;
+    border-bottom: 0.1vw solid #707070;
+    }
+
+.icon{
+	width: 23.1vw;
+	height:39vw;
+	margin: -4.6vw 0vw 3vw 38vw;
+}
+
+.homehead{
+	margin-top: -19.5vw;
+	margin-left: 0.2vw;
+}
+
+.homehead h1{
+ color: #28282B;/*Matte Black*/
+ text-align: center;
+ letter-spacing: 0.2vw;
+ margin-top: 10vw;
+ margin-right: 0vw;
+ font-size: 2.55vw;
+ font-family: "Futura PT Heavy";
+}
+
+.homehead h2{
+color: #343434; /*Jet Black*/
+text-align: center;
+ font-size: 1.30vw;
+ line-height: 2.8vw;
+ font-family: 'Avenir Light';
+}
+
+.homeheadb{
+	display: inline;
+}
+
+.buttons {
+color: #545454; 
+  border: 0.12vw solid lightgrey;
+  border-radius: 1.2vw;
+  margin: 0.7vw 0vw 0vw 40vw;
+ display: inline;
+}
+
+
+.action_btn {
+  display: inline;
+  background-color:transparent;
+  font-family: 'Avenir Medium';
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.30vw;
+  transition-duration: 0.1s;
+  margin: 1.25vw 0vw 0vw 11.5vw;
+}
+
+.works{
+  background-color:transparent;
+  border: 0.12vw solid lightgrey;
+  padding: 1.3vw 5vw;
+  border-radius: 1.2vw;
+  font-family: 'Avenir Medium';
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 1.30vw;
+  transition-duration: 0.1s;	
+}
+
+.photographs{
+  background-color:transparent;
+  border: 0.12vw solid lightgrey;
+  border-radius: 1.2vw;
+  padding: 1.3vw 3.7vw;
+  margin-left: 9.3vw;
+  font-family: 'Avenir Medium';
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 1.30vw;
+  transition-duration: 0.1s;	
+}
+
+.works:hover {
+  background-color:#A0A0A0;
+  color: white;
+}
+
+.photographs:hover {
+  background-color:#A0A0A0;
+  color: white;
+}
+
+.buttonc{
+  background-color:transparent;
+  padding: 1.3vw 4vw;
+  font-family: 'Avenir Medium';
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.30vw;
+  transition-duration: 0.1s;	
+   color: #545454; 
+  border: 0.12vw solid lightgrey;
+  border-radius: 1.2vw;
+  margin: 1.5vw 0vw 0vw 0.35vw;
+}
+
+.buttonc:hover {
+  background-color:#A0A0A0;
+  color: white;
+}
+
+.type2{
+  background-color:	#F0F0F0;
+  border: none;
+  padding: 1.3vw 2vw;
+  margin: 2vw 0vw 2vw 2vw;
+  font-family: 'Avenir Medium';
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.10vw;
+  transition-duration: 0.1s;	
+}
+
+.button2 { /*description*/
+  color: #545454; 
+  border-radius: 1.2vw;
+  margin-right: -2vw;
+}
+
+.project1, .project2,.project3{
+	margin-top: 3vw;
+}
+
+.page1,.page2,.page3 {
+	margin-top: 0vw;
+}
+
+hr {
+  display: block;
+  width:95vw;
+  margin-top: -1.5vw;
+  margin-left: 2vw;;
+  border: 0.05vw solid #707070;
+}
+
+.line1{
+	width: 55vw;
+    height: 3vw;
+	margin: 20vw 0vw -1.3vw 41.5vw;
+	padding-top: 3vw;
+    border-bottom: 0.1vw solid #707070;
+}
+
+.line2{
+	width: 50vw;
+    height: 3vw;
+	margin: 21vw 0vw -1.3vw 46.5vw;
+	padding-top: 3vw;
+    border-bottom: 0.1vw solid #707070;
+}
+
+.line3{
+	width: 57vw;
+    height: 3vw;
+	margin: 21vw 0vw -1.3vw 39.5vw;
+	padding-top: 2.2vw;
+    border-bottom: 0.1vw solid #707070;
+}
+
+.page3 hr{
+	margin: 20vw 0vw -1.3vw 33.3vw;
+	width:64vw;
+}
+
+.projecta,.projectb,.projectc{
+	margin: 2vw 0vw -10vw 0vw;
+}
+
+
+.projecta{
+	margin-bottom: -8vw;
+}
+
+.projectb{
+	margin-bottom: -8vw;
+}
+
+.projectc{
+	margin-bottom: -1vw;
+}
+
+
+.title{
+ 	margin:-2.6vw 0vw 0vw 0vw;
+}
+
+.photohead{
+	text-align: center;
+}
+
+.photohead2{
+	text-align: center;
+}
+
+.photohead h1{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 3.4vw;
+ 	font-family: "Futura PT Heavy";
+	margin: 1vw 0vw 0.7vw 0vw;
+}
+
+.photohead2 h1{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 3.4vw;
+ 	font-family: "Futura PT Heavy";
+	margin: 1vw 0vw 0.7vw 0vw;
+}
+
+.photohead p{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 2.9vw;
+	margin: 0vw 0vw -1vw 0vw;
+ 	font-family: "Avenir Book";
+}
+
+.photohead2 p{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 2.9vw;
+	margin: 0vw 0vw -1vw 0vw;
+ 	font-family: "Avenir Book";
+}
+
+.photohead p2{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 2.9vw;
+	margin: 0vw 0vw -1vw 0vw;
+ 	font-family: "Avenir Book";
+}
+
+.photohead p1{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+	padding-bottom: 80vw;
+ 	font-size: 2.9vw;
+ 	font-family: "Avenir Book";
+}
+
+.photohead2 p1{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 2.9vw;
+ 	font-family: "Avenir Book";
+}
+
+.grid-container{
+  display: grid;
+  padding: 0vw 0vw 2vw;
+  width: 55vw;
+  height: 47vw;
+  margin: 0.5vw 0vw 0vw 0vw;
+}
+
+.container2{
+  display: grid;
+  background-color:white;
+  padding: 16.6vw 0vw 19.9vw;
+  width: 37vw;
+  height: 12.5vw;
+  margin: -49vw 0vw 0vw 60vw;
+}
+
+.acontainer1{
+  display: grid;
+  background-color:white;
+  width: 20vw;
+  height: 5.5vw;
+  margin: 22vw 0vw 0vw -0.5vw;
+}
+
+.acontainer2{
+  display: grid;
+  background-color:white;
+  width: 30vw;
+  height: 40vw;
+  margin: -26vw 0vw 0vw 21.5vw;
+  border-radius: 1vw;
+}
+
+.acontainer3{
+  display: grid;
+  background-color:white;
+  width: 40vw;
+  height: 40vw;
+  margin: -40vw 0vw 0vw 55.5vw;
+}
+
+.acontainer4{
+  display: grid;
+  background-color: white;
+  width: 40vw;
+  height: 5vw;
+  margin: 10vw 0vw 0vw 2vw;
+  padding-top: 5vw;
+}
+
+.acontainer5{
+  display: grid;
+  background-color: white;
+  width: 94vw;
+  height: 28vw;
+  margin: 4vw 0vw 2vw 2vw;
+}
+
+.acontainertext{
+  display: grid;
+  background-color: white;
+  width: 94vw;
+  height: 7vw;
+  margin: 4vw 0vw 8vw 2vw;
+}
+
+.acontainer6, .acontainer7, .acontainer8{
+  display: grid;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 3vw;
+}
+
+.overlayicon3{
+  position: absolute;
+  top: 84.4vw;
+  bottom: 0;
+  left: 67.65vw;
+  right: 0;
+  height: 28vw;
+  width: 28.24vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#FFFFFF75;
+  border-radius: 2.6vw;
+}
+
+.acontainer8:hover .overlayicon3 {
+  opacity:1;
+}
+
+.overlayicon2{
+  position: absolute;
+  top: 84.4vw;
+  bottom: 0;
+  left: 34.8vw;
+  right: 0;
+  height: 28vw;
+  width: 28.24vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#ffffff75;
+  border-radius: 2.6vw;
+}
+
+.acontainer7:hover .overlayicon2 {
+  opacity:1;
+}
+
+.overlayicon1{
+  position: absolute;
+  top: 84.4vw;
+  bottom: 0;
+  left: 2vw;
+  right: 0;
+  height: 28vw;
+  width: 28.24vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#ffffff75;
+  border-radius: 2.6vw;
+}
+
+.acontainer6:hover .overlayicon1 {
+  opacity:1;
+}
+
+.myself{
+  width: 31vw;
+  height: 40vw;
+  border-radius: 1vw;
+}
+
+.icon1, .icon2, .icon3{
+  width: 28.1vw;
+  height:28.2vw;
+  border-radius: 3vw;
+  border: 0.1vw solid #CECECE;
+}
+
+.acontainer3 h1{
+ color: #3F464B;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 3vw;
+ 	font-family:"Avenir Black";
+	margin: 5vw 0vw 0vw 0vw;
+}
+
+.acontainer4 h1{
+ color:#282727;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 3vw;
+ 	font-family:"Avenir Black";
+	margin: 0vw 0vw 0vw 0vw;
+	
+}
+
+.acontainer3 p{
+ color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 2.8vw;
+ 	font-family: "Avenir Book";
+	margin: -1vw 0vw 0vw 0vw;
+}
+
+.acontainer3 p1{
+ color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 2vw;
+ 	font-family: "Avenir Book";
+	margin-top: 4.5vw;
+}
+
+.acontainer3 p2{
+ color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 1.5vw;
+ 	font-family: "Avenir Book";
+}
+
+.acontainer3 a{
+    color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 1.5vw;
+ 	font-family: "Avenir Book";
+	text-decoration: underline;
+}
+
+.acontainer1 h1{
+  color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 3.4vw;
+ 	font-family: "Futura PT Heavy";
+	margin: 1vw 0vw 0vw 0vw;
+}
+
+.acontainert1 p{
+ color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 1.5vw;
+ 	font-family: 'Avenir Black';
+}
+
+.acontainert2 p{
+ color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 1.5vw;
+ 	font-family: 'Avenir Black';
+}
+
+.acontainert3 p{
+ color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 1.5vw;
+ 	font-family: 'Avenir Black';
+}
+
+.acontainert1 p1{
+ color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 1.5vw;
+ 	font-family: 'Avenir Book';
+	margin-top: -2vw;
+}
+
+.acontainert2 p1{
+ color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 1.5vw;
+ 	font-family: 'Avenir Book';
+}
+
+.acontainert3 p1{
+ color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 1.5vw;
+ 	font-family: 'Avenir Book';
+}
+
+.container3{
+  display: grid;
+  background-color:white;
+  padding: 5vw 0vw 4.2vw 0vw;
+  width: 37%;
+  margin: -9.5vw 0vw 0vw 60vw;
+}
+
+.container3 p2{
+	text-align: center;
+	color: #343434;
+ 	letter-spacing: 0.05vw;
+ 	font-size: 1.5vw;
+ 	font-family: "Avenir Book";
+}
+
+.container4{
+  display: grid;
+  background-color:white;
+  width: 60%;
+  margin: 8vw 0vw -2vw 30vw;
+}
+
+.container4 p2{
+    text-align: left;
+	color: #343434;
+ 	letter-spacing: 0.05vw;
+ 	font-size: 1.5vw;
+ 	font-family: "Avenir Book";
+}
+
+.container5{
+  display: grid;
+  background-color:white;
+  width: 99vw;
+  height: 28vw;
+  margin: 5vw 0vw -0.7vw 3vw;
+}
+
+.container6{
+  display: grid;
+  background-color:white;
+  width: 50vw;
+  height: 10vw;
+  margin: 3.3vw 0vw 0vw 2.5vw;
+}
+
+.container6 h1{
+	color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 3.4vw;
+ 	font-family: "Futura PT Heavy";
+	margin: 1vw 0vw 0vw 0vw;
+}
+
+.container7{
+  display: grid;
+  background-color:white;
+  width: 50vw;
+  height: 5vw;
+  margin: -4vw 0vw 8vw 2.5vw;
+}
+
+.container7 p2{
+    text-align: left;
+	color: #343434;
+ 	letter-spacing: 0.05vw;
+ 	font-size: 1.5vw;
+ 	font-family: "Avenir Book";
+}
+
+.container8{
+  display: grid;
+  background-color:white;
+  padding: 16.6vw 0vw 19.9vw;
+  width: 37vw;
+  height: 12.5vw;
+  margin: 5vw 0vw 0vw -0.5vw;
+}
+
+.container9{
+  display: grid;
+  background-color:white;
+  width: 28%;
+  margin: -48vw 0vw 0vw 40vw;
+}
+
+.container10{
+  display: grid;
+  background-color:indianred;
+  width: 25%;
+  margin: -41.9vw 0vw 0vw 69.7vw;
+}
+
+.container11{
+  display: grid;
+  background-color:indianred;
+  width: 25%;
+  margin: 2.75vw 0vw 0vw 69.7vw;
+}
+
+.aboutpage{
+	margin-left: 2vw;
+	margin-top: -2vw;
+}
+
+.box{
+	padding-bottom: 0vw;
+}
+
+.containerpictures{
+   display: grid;
+   overflow: hidden;
+   grid-template-columns: 16% 16% 40% 16% 16%;
+     grid-template-rows: 28vw ;
+   gap:1vw;
+}
+
+.acontainergrid{
+   display: grid;
+   overflow: hidden;
+   grid-template-columns: 30% 30% 30%;
+     grid-template-rows: 58vw ;
+   gap:4.6vw;
+}
+
+.acontainertextgrid{
+   display: grid;
+   overflow: hidden;
+	line-height: 1vw;
+   grid-template-columns: 30% 30% 30%;
+     grid-template-rows: 58vw ;
+   gap:4.8vw;
+	margin-left: 0.5vw;
+}
+
+.container5p1{
+	background-color:cornflowerblue;
+	width: 100%;
+  height: 100%;
+}
+
+.container5p2{
+	background-color:yellow;
+	width: 100%;
+  height: 100%;
+}
+
+.title p{
+ 	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	font-family:'Avenir Light';
+	margin: -1vw 0vw 0vw 2.5vw;
+}
+
+.page4 h2{
+ color: #343434;
+ text-align: left;
+ letter-spacing: 0.2vw;
+ margin: 10vw 0vw 0.01vw 2.0vw;
+ font-size: 2.55vw;
+ font-family: "Futura PT Heavy";
+}
+
+.page401 h2{
+ color: #343434;
+ text-align: left;
+ letter-spacing: 0.2vw;
+ margin: 10vw 0vw 0.01vw 2.0vw;
+ font-size: 2.55vw;
+ font-family: "Futura PT Heavy";
+}
+
+.page402 h2{
+ color: #343434;
+ text-align: left;
+ letter-spacing: 0.2vw;
+ margin: 10vw 0vw 0.01vw 2.0vw;
+ font-size: 2.55vw;
+ font-family: "Futura PT Heavy";
+}
+
+.page5 h2{
+ color: #343434;
+ text-align: left;
+ letter-spacing: 0.2vw;
+ margin: 10vw 0vw 0.01vw 2.0vw;
+ font-size: 2.55vw;
+ font-family: "Futura PT Heavy";
+}
+
+.page3 h2{
+ color: #343434;
+ text-align: left;
+letter-spacing: 0.2vw;
+ margin: 0.1vw 0vw 0.01vw 2.6vw;
+ font-size: 1.70vw;
+ font-family: 'Avenir Light';
+}
+
+.page2 h2{
+ color: #343434;
+ text-align: left;
+letter-spacing: 0.2vw;
+ margin: 0.1vw 0vw 0.01vw 2.6vw;
+ font-size: 1.70vw;
+ font-family: 'Avenir Light';
+}
+
+.page1 h2{
+ color: #343434;
+ text-align: left;
+ letter-spacing: 0.2vw;
+ margin: 0.1vw 0vw 0.01vw 2.6vw;
+ font-size: 1.70vw;
+ font-family: 'Avenir Medium';
+}
+
+.page4{
+	margin-top: 40vw;
+	margin-left: 1vw;
+}
+
+.page401{
+	margin-top: 0vw;
+	margin-left: 1vw;
+}
+
+.page402{
+	margin-top: 0vw;
+	margin-left: 1vw;
+}
+
+.page5{
+	margin: 50vw 0vw;
+}
+
+.page4 p1{
+ color: #343434;
+ font-size: 1.2vw;
+ text-align: left;
+  letter-spacing: 0.05vw;
+ margin: 0vw 0vw 0vw 2vw;
+ font-family:"Avenir Light";
+}
+
+.page401 p1{
+ color: #343434;
+ font-size: 1.2vw;
+ text-align: left;
+  letter-spacing: 0.05vw;
+ margin: 0vw 0vw 0vw 2vw;
+ font-family:"Avenir Light";
+}
+
+.page402 p1{
+ color: #343434;
+ font-size: 1.2vw;
+ text-align: left;
+  letter-spacing: 0.05vw;
+ margin: 0vw 0vw 0vw 2vw;
+ font-family:"Avenir Light";
+}
+
+.page5 p1{
+ color: #343434;
+ font-size: 1.2vw;
+ text-align: left;
+  letter-spacing: 0.05vw;
+ margin: 0vw 0vw 0vw 2vw;
+ font-family:"Avenir Light";
+}
+
+.NextProject a{
+ color: #939393;
+ font-size: 1.4vw;
+ text-align: left;
+ letter-spacing: 0.05vw;
+ margin: -2.5vw 3vw 0vw 0vw;
+ float: right;
+ font-family: 'Avenir Light';
+}
+
+.NextPhoto a{
+ color: #939393;
+ font-size: 1.3vw;
+ text-align: left;
+ letter-spacing: 0.05vw;
+ margin: -0.8vw 0.5vw 0vw 0vw;
+ float: right;
+ font-family: 'Avenir Light';
+}
+
+.picpopup a{
+ color: #939393;
+ font-size: 1.1vw;
+ text-align: left;
+ line-height: 1.5vw;
+ letter-spacing: 0.02vw;
+ margin: -37.55vw 0vw 0vw -77vw;
+ float: left;
+ font-family: 'Avenir Light';
+}
+
+.PreviousPhoto a{
+ color: #939393;
+ font-size: 1.3vw;
+ text-align: left;
+ letter-spacing: 0.05vw;
+ margin: -0.8vw 0vw 0vw -77vw;
+ float: left;
+ font-family: 'Avenir Light';
+}
+
+footer{
+ color: #343434;
+ font-size: 0.9vw;
+ letter-spacing: 0.08vw;
+ text-align: center;
+ font-family:'Avenir Light';
+}
+
+.footerhome{
+	margin-top: 15vw;
+	margin-bottom:3vw;
+}
+
+.pimg1{
+	margin-top: 2.5vw;
+}
+
+.pj1head h2{
+	letter-spacing: 0.2vw;
+	margin: -2vw 0vw 0vw 2.5vw;
+	font-size: 1.80vw;
+	line-height: 4vw;
+	font-family:'Avenir Medium';
+}
+
+.pj1brief{
+	margin-top: -1.0vw;
+}
+
+.p1page2{
+	margin: 18vw 0vw 0vw 0vw;
+	padding-top: 6vw;
+}
+
+.p1page3{
+	margin: 13vw 0vw 0vw 0vw;
+	padding-top: 10vw;
+}
+
+.p1page4{
+	margin: 15vw 0vw 0vw 0vw;
+	padding-top: 5vw;
+}
+
+.p1page5{
+	margin: 13vw 0vw 0vw 0vw;
+	padding-top: 3vw;
+}
+
+.p1page6{
+	margin: 0vw 0vw 0vw 0vw;
+	padding-top: 3vw;
+}
+
+.p2page4{
+	margin: 13vw 0vw 0vw 0vw;
+}
+
+.p2page5{
+	margin: 13vw 0vw 0vw 52vw;
+}
+
+.p2page6{
+	margin: 13vw 0vw 0vw 0vw;
+}
+
+.pj1p1 h2, .pj1p2 h2, .pj1p3 h2, .pj1p4 h2, .pj1p5 h2, .pj2p4 h2, .pj2p5 h2, .pj2p6 h2{
+	letter-spacing: 0.2vw;
+	margin: 0vw 0vw 0vw 2.5vw;
+	font-size: 2.0vw;
+	line-height: 4vw;
+	font-family:'Avenir Medium';
+}
+
+.pj1p1 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 35%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+.pj1p2 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+.pj1p3 p, .pj1p4 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 95%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+.pj1p5 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 45%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 50vw;
+}
+
+.pj2p4 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 45%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+.pj2p5 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 85%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+.pj2p6 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 45%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+
+.p02{
+	margin: 6vw 0vw 0vw 0vw;
+}
+
+.pj1img1{
+  width:44vw;
+  height: 42vw;
+  margin: 0vw 0vw -43vw 53vw;
+}
+
+.pj2img1{
+  width:55vw;
+  height: auto;
+  margin: -35vw 0vw 0vw 45vw;
+}
+
+
+.column h2{
+ color: #3E3E3E;
+ text-align: left;
+ letter-spacing: 0.1vw;
+ margin-top: 0vw;
+ margin-left: -2vw;
+ font-size: 1.5vw;
+ font-family:'Avenir Book';
+}
+
+
+.column p {
+	letter-spacing: 0.1vw;
+	text-align: left;
+	margin-top: -1.0vw;
+	margin-bottom: 5vw;
+	margin-left: -2vw;
+	font-size: 1.5vw;
+	font-family: 'Avenir Book';
+}
+
+
+.columnp h2, .columnp1 h2{
+ color: #3E3E3E;
+ text-align: left;
+ letter-spacing: 0.1vw;
+ margin-top: -1.2vw;
+ margin-left: -2vw;
+ font-size: 2.3vw;
+ font-family:"Montserrat", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*Code copied from: https://codepen.io/denic/pen/GRoOxbM
+  Author: Marko on Codepen
+  Name: CSS Typing Effect
+  Description: Typewriter effect
+  Date retrieved: July 1, 2020
+*/
+
+.modal {
+    display: none;
+    position: fixed;
+    top: -3vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:transparent;
+	
+}
+
+.modal:target {
+    display: block;
+      z-index: 1;
+     background-color:#FFFFFF95;
+}
+
+.modalgrad {
+    display: none;
+    position: fixed;
+    top: 110vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:transparent;
+}
+
+.modalgrad:target {
+    display: block;
+      z-index: 1;
+     background-color:indianred;
+}
+
+.popup {
+  padding: 2vw;
+  background: #fff;
+  border-radius: 2vw;
+  width: 90vw;
+  height: 40vw;
+  margin: 10.8vw 0vw 0vw 2.8vw;
+  position: relative;
+  border: 0.12vw solid #CECECE;
+}
+
+.popup .close {
+  position: absolute;
+  top: 2vw;
+  right: 3vw;
+  transition: all 200ms;
+  font-size: 3vw;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color:darkgray;
+}
+.popup .content {
+  max-height: 100%;
+  overflow: auto;
+}
+
+.popup1 {
+  padding: 2vw;
+  background: #fff;
+  border-radius: 2vw;
+  width: 90vw;
+  height: 40vw;
+  margin: 10.8vw 0vw 0vw 2.8vw;
+  position: fixed;
+  border: 0.12vw solid #CECECE;
+}
+
+.popup1 .close {
+  position: absolute;
+  top: 2vw;
+  right: 3vw;
+  transition: all 200ms;
+  font-size: 3vw;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup1 .close:hover {
+  color:darkgray;
+}
+.popup1 .content {
+  max-height: 100%;
+  overflow: auto;
+}
+
+.tspic1{
+    width: 59.5vw;
+    height:39.5vw;
+    margin: 0vw 0vw 0vw 15vw;
+}
+
+.gradpic1{
+    width: 26vw;
+    height:39.5vw;
+    margin: 0vw 0vw 0vw 1vw;
+}
+
+.gradpic2{
+    width: 59vw;
+    height:39.5vw;
+	padding-left: 1.5vw;
+    margin: -20.7vw 0vw 0vw 28.5vw;
+}
+
+.gradpic3{
+    width: 59vw;
+    height:39.5vw;
+    margin: 0vw 0vw 0vw 1vw;
+}
+
+
+.gradpic4{
+    width: 26vw;
+    height:39.5vw;
+	padding-left: 1.5vw;
+    margin: 0vw 0vw 0vw 1vw;
+}
+
+.gradpic5{
+    width: 59vw;
+    height:39.5vw;
+	padding-left: 1.5vw;
+    margin: 0vw 0vw 0vw 1vw;
+}
+
+.gcontainer1{
+  display: grid;
+  background-color:white;
+  width: 25vw;
+  height: 5.5vw;
+  margin: 15vw 0vw 0vw 1vw;
+}
+
+.gcontainer1 h1{
+ color: #28282B;/*Matte Black*/
+ text-align: center;
+ letter-spacing: 0.2vw;
+ font-size: 2.55vw;
+ font-family: "Futura PT Heavy";
+}
+
+.gcontainer1 p{
+ letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 95%;
+	font-family:'Avenir Light';
+	margin: 0vw 0vw 0vw 1.5vw;
+}
+
+.popup p{
+    font-family:'Avenir Light';
+    margin: -1.50vw 0vw 0vw 78.5vw;
+}
+
+.tspic2{
+    width: 59.5vw;
+    height:39.5vw;
+    margin: 0vw 0vw 0vw 18vw;
+}
+
+.tspic3{
+    width: 59.5vw;
+    height:39.5vw;
+    margin: 0vw 0vw 0vw 15vw;
+}
+
+.tspic4{
+    width: 60vw;
+    height:39.5vw;
+    margin: 0.1vw 0vw 0vw 15vw;
+}
+
+.arrownext{
+	width: 5vw;
+	height: 5.6vw;
+	margin: 0.5vw 0vw 0vw 1.8vw;
+	opacity: 20%;
+}
+
+.arrownextoverlay{
+	width: 5vw;
+	height: 5.6vw;
+	margin: 0.248vw 0vw 0vw 1.70vw;
+	opacity: 40%;
+}
+
+.arrownext1{
+	width: 5vw;
+	height: 5.6vw;
+	margin: 0.5vw 0vw 0vw 1.8vw;
+	opacity: 20%;
+}
+
+.arrowpreviouslast{
+	width: 5vw;
+	height: 5.6vw;
+	margin: 0.3vw 0vw 0vw 1.4vw;
+	opacity: 20%;
+}
+
+.arrowpreviouslastoverlay{
+	width: 5vw;
+	height: 5.6vw;
+	margin: 0.3vw 0vw 0vw 1.4vw;
+	opacity: 40%;
+}
+
+.container {
+  position: relative;
+  display:inline-block;
+  width:21.528vw;
+  height:32.3vw;
+  margin: 4.5vw 1vw 2.76vw 1.8vw;
+}
+
+.containerindex {
+  margin-top: -1vw;
+  position: relative;
+  display:inline-block;
+}
+
+.overlayindex {
+  position: absolute;
+  top: -1vw;
+  bottom: 0;
+  left: 0.1vw;
+  right: 0vw;
+  height: 32.5vw;
+  width: 57.5vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#FFFFFF80;
+}
+
+.containerindex:hover .overlayindex {
+  opacity: 1;
+  transform: scale(1.004);
+  transition: .5s ease;
+}
+
+.containerindex:hover img {
+  transform: scale(1.004);
+  transition: .5s ease;
+}
+
+.image {
+  display: block;
+  width:21.528vw;
+  height:32.3vw;
+}
+
+.collab{
+  margin: 52vw 0vw 0vw 0vw;
+}
+
+.picp101{
+    display: grid;
+    width: 13vw;
+    background-color: indianred;
+    margin: 2.5vw 0vw -7vw 2vw;
+}
+
+.picp102{
+    display: grid;
+      margin: 9vw 0vw -0.3vw 2vw;
+}
+
+.picp103{
+    display: grid;
+        margin: -29.75vw 0vw 0vw 19vw;
+}
+
+.picp104{
+    display: grid;
+      margin: -23vw 0vw 0vw 37vw;
+}
+
+.pic1 {
+display: grid;
+  width:13vw;
+  height:20vw;
+}
+
+.pic2 {
+display: grid;
+  width:16.35vw;
+  height:23vw;
+}
+
+.pic3 {
+display: grid;
+  width:17.4vw;
+  height:30vw;
+}
+
+.pic4 {
+  display: grid;
+  width:16.87vw;
+  height:23vw;
+}
+
+.c1 {
+  width:100%;
+  height:100%;
+}
+
+.c2 {
+  width:100%;
+  height:100%;
+}
+
+.c3{
+  width:100%;
+  height:100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 7.8vw;
+  bottom: 0;
+  left: 2vw;
+  right: 0;
+  height: 20vw;
+  width: 13vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA50;
+}
+
+.picp101:hover .overlay {
+  opacity:1;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 29.8vw;
+  bottom: 0;
+  left: 2vw;
+  right: 0;
+  height: 23vw;
+  width: 16.4vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA50;
+}
+
+.picp102:hover .overlay2 {
+  opacity:1;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 22.75vw;
+  bottom: 0;
+  left: 19vw;
+  right: 0;
+  height: 30vw;
+  width: 17.4vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA50;
+}
+
+.picp103:hover .overlay3 {
+  opacity:1;
+}
+
+.overlay4 {
+ position: absolute;
+  top: 29.75vw;
+  bottom: 0;
+  left: 37vw;
+  right: 0;
+  height: 23vw;
+  width: 16.9vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA50;
+}
+
+.picp104:hover .overlay4 {
+  opacity:1;
+}
+
+.overlaygrad {
+ position: absolute;
+  top: 122.5vw;
+  bottom: 0;
+  left: 40vw;
+  right: 0;
+  height: 42.3vw;
+  width: 54.75vw;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.picgrad1:hover .overlaygrad {
+  opacity:1;
+}
+
+.c3grad{
+	position: absolute;
+	top:-0.68vw;
+  bottom: 0;
+  left: 0vw;
+  right: 0;
+	width: 28vw;
+	height: 42.4vw;
+}
+
+.c4grad{
+	position: absolute;
+	top:-0.20vw;
+  bottom: 0;
+  left: 29.7vw;
+  right: 0;
+	width: 25vw;
+	height: 19.55vw;
+}
+
+.c5grad{
+	position: absolute;
+	top:22.2vw;
+  bottom: 0;
+  left: 29.7vw;
+  right: 0;
+	width: 25vw;
+	height: 19.5vw;
+}
+
+.Nextcontainerfirst {
+  width: 8vw;
+  height: 6vw;
+  margin: -23.1vw 0vw 0vw 83.9vw;
+  background-color: white;
+}
+
+.Nextcontainerfirst:hover .overlaynext {
+  opacity:1;
+}
+
+.Nextcontainerlast {
+  width: 8vw;
+  height: 6.01vw;
+  margin: -23.09vw 0vw 0vw -1.98vw;
+  background-color: white;
+}
+
+.Nextcontainerlast:hover .overlayprevious {
+  opacity:1;
+}
+
+.Nextcontainer {
+  width: 8vw;
+  height: 6vw;
+  margin: -23vw 0vw 0vw -1.97vw;
+  background-color: white;
+}
+
+.overlayprevious {
+  position: absolute;
+  top: 18.9vw;
+  bottom: 0;
+  left:0.02vw;
+  right: 0;
+  height: 6vw;
+  width: 8vw;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.Nextcontainer:hover .overlayprevious {
+  opacity:1;
+}
+
+.Nextcontainer2 {
+  width: 8vw;
+  height: 6vw;
+  margin: -6.3vw 0vw 0vw 83.9vw;
+  background-color: white;
+  
+}
+
+.overlaynext{
+  position: absolute;
+  top: 18.89vw;
+  bottom: 0;
+  left:86vw;
+  right: 0;
+  height: 6vw;
+  width: 8vw;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.Nextcontainer2:hover .overlaynext {
+  opacity:1;
+}
+
+.homeimg{ 
+  width:95.1314vw;
+  height: 36vw;
+  margin-top: 0vw;
+  padding: 2.8vw 2.036vw 9.000vw;
+}
+
+.imgp{
+  position: relative;
+  top: -33vw;
+  left: 2.5vw;
+  margin-left: 0vw;
+  margin-bottom: -26vw;
+  width:19%;
+  height: auto;
+}
+
+.imgp1{
+  width:95vw;
+  height: 30vw;
+  padding: 0vw 0vw 0vw;
+  margin: -2vw 2.036vw 3.5vw; 
+  border-radius: 2vw;
+}
+
+.imgp2{
+  margin-top: -15vw;
+  margin-left: 35vw;
+  position: relative;
+  top: -95.3vw;
+  left:-33vw;
+  width:21.5%;
+  height:auto;
+}
+
+.imgp3{
+  margin-left: 35vw;
+  position: relative;
+  top: -94.8vw;
+  left:-33vw;
+  width:21.5%;
+  height:auto;
+}
+
+.homeimgp{ 
+  width:57.4vw;
+  height: 19.3vw;
+  padding: 0vw 0vw 0vw;
+  border-radius: 1.5vw;
+  position: relative;
+  top: 8vw;
+  left: 0.1vw;
+}
+
+.homeimgpro{ 
+  width:95vw;
+  height: 31vw;
+  padding: 0vw 0vw 0vw;
+  margin: 1.8vw 2.036vw 3.5vw 4.5vw;
+  border-radius: 3vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+   border: 0.12vw solid #CECECE;
+}
+
+.homeimgproinner{ 
+  width:95vw;
+  height: 31vw;
+  padding: 0vw 0vw 0vw;
+  margin: 1.8vw 2.036vw 3.5vw 4.5vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+  border: 0.12vw solid #CECECE50;
+}
+
+.pj1img2{ 
+  width:95vw;
+  height: 31vw;
+  padding: 0vw 0vw 0vw;
+  margin: 1vw 2.036vw -1vw 4.5vw;
+  border-radius: 3vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+}
+
+.pj1img3{ 
+  width:99vw;
+  height: 32.3vw;
+  padding: 0vw 0vw 0vw;
+  margin: 2.3vw 0vw 0vw 2.3vw;
+  border-radius: 3vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+}
+
+.pj1img4{ 
+  width:27vw;
+  height: auto;
+  padding: 0vw 0vw 0vw;
+  margin: -35.1vw 0vw 0vw 4.8vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+}
+
+/* uber */
+
+.pj2img2{ 
+  width:40vw;
+  height: auto;
+  padding: 0vw 0vw 0vw;
+  margin: -35.1vw 0vw 0vw 60vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+}
+
+.pj2img3{ 
+  width:52vw;
+  height: auto;
+  padding: 0vw 0vw 0vw;
+  margin: -55vw 0vw 0vw -53vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+}
+
+.pj2img4{ 
+ width:50vw;
+  height: auto;
+  padding: 0vw 0vw 0vw;
+  margin: -55vw 0vw 0vw 52vw;
+}
+/* uber */
+
+
+/* txp */
+.columnp p, .columnp1 p {
+	letter-spacing: 0.1vw;
+	text-align: left;
+	margin-top: -1.0vw;
+	margin-bottom: 5vw;
+	margin-left: -17.6vw;
+	font-size: 1.7vw;
+}
+
+.columnp, .columnp1{
+  float: left;
+  position: relative;
+  right: -2vw;
+  width: 43%;
+  padding: 2.5vw 2.5vw 0vw 2.5vw;
+}
+/* txp */
+
+.containerp {
+  position: relative;
+  display:inline-block;
+  width:0vw;
+  height:0vw;
+}
+
+.overlayp {
+  position: absolute;
+  top: 1.8vw;
+  bottom: 0;
+  left: 2vw;
+  right: 0vw;
+  height: 31.1vw;
+  width: 95.2vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#6e6b6b50;
+  border-radius: 3vw;
+  margin-bottom: 30vw;
+}
+
+.containerp:hover .overlayp {
+  opacity: 1;
+  transform: scale(1.004);
+  transition: .5s ease;
+}
+
+.containerp:hover img {
+  transform: scale(1.004);
+  transition: .5s ease;
+}
+
+/* Create three equal columns that floats next to each other */
+.column{
+  float: left;
+  position: relative;
+  right: -2vw;
+  width: 27.5%;
+  padding: 2.5vw;
+  margin-top:-1vw; 
+}
+
+a1{
+	background: red;
+	height: 100vh;
+	width:100vw;
+}
+
+/* Christal.css */
+
